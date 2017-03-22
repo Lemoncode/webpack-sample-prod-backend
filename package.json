@@ -1,0 +1,32 @@
+{
+  "name": "webpack-sample-prod-backend",
+  "version": "1.0.0",
+  "description": "This server provides students mock data and it acts as production server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lemoncode/webpack-sample-prod-backend.git"
+  },
+  "keywords": [
+    "webpack",
+    "sample",
+    "production",
+    "server"
+  ],
+  "author": "Lemoncode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lemoncode/webpack-sample-prod-backend/issues"
+  },
+  "homepage": "https://github.com/Lemoncode/webpack-sample-prod-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "foreman": "^2.0.0"
+  }
+}
