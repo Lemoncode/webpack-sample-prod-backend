@@ -1,10 +1,12 @@
-var express = require('express');
-var bodyParser = require('body-parser');
-var path = require('path');
-var env = require('../environment.config');
-var studentRouter = require('./api/student');
+const express = require('express');
+const cors = require('cors');
+const bodyParser = require('body-parser');
+const path = require('path');
+const env = require('../environment.config');
+const studentRouter = require('./api/student');
 
-var app = express();
+const app = express();
+app.use(cors());
 app.use(bodyParser.urlencoded({
   extended: true
 }));

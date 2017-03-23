@@ -1,7 +1,7 @@
-var express = require('express');
-var students = require('../mockData/studentMockData');
+const express = require('express');
+const students = require('../mockData/studentMockData');
 
-var studentRouter = express.Router();
+const studentRouter = express.Router();
 
 studentRouter.route('/students')
   .get((req, res) => {
